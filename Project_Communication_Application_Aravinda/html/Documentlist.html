@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Uploads</title>
+    <link rel="stylesheet" href="../css/Styles.css">
+    <link rel="stylesheet" href="../css/ManageDocuments.css">
+</head>
+<body onload="loadUserUploads()">
+
+    <div class="container">
+        <h1>My Uploads</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Label</th>
+                    <th>Filename</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="uploadsTableBody">
+                <!-- Uploads will be loaded here -->
+            </tbody>
+        </table>
+
+        <button onclick="openAddUploadModal()">Add Upload</button>
+    </div>
+
+    <!-- Include Modals -->
+    <div id="addUploadModal" class="modal"></div>
+    <div id="editUploadModal" class="modal"></div>
+    <div id="deleteUploadModal" class="modal"></div>
+
+    <script src="../js/ManageDocuments.js"></script>
+</body>
+</html>

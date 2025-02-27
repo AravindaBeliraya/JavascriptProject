@@ -1,0 +1,64 @@
+/* Apply styles to the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style for the container box */
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+/* Style for heading */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Style for input fields */
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the submit button */
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Change button background color on hover */
+button:hover {
+  background-color: #218838;
+}
+
+/* Apply error styles to input fields */
+.error {
+  border: 2px solid red;
+}
+
+/* Style for error messages */
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+  text-align: left;
+}
